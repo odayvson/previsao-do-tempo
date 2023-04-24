@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #05263F;
+}
+
+
+.caixa-maior {
+	background: #ffff;
+	opacity: 0.8;
+	border-radius: 25px;
+	padding: 20px;
+	width: 95%;
+	max-width: 450px;
+}
+
+.caixa-media {
+	margin-top: 25px;
+}
+
+.input-cidade {
+	border:  none;
+	outline: none;
+	padding: 10px;
+	border-radius: 25px;
+	font-size: 20px;
+	background-color: #7c7c7c2b;
+	color: black;
+	width: calc(100% - 60px);
+	padding-left: 20px;
+
+}
+
+.botao-buscar {
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 50px;
+	background-color: #7c7c7c2b;
+	cursor: pointer;
+	float: right;
+
+
+}
+.botao-buscar:hover {
+	background-color: black;
+	opacity: 0.2;
+}
+
+.img-buscar {
+	width: 20px;
+}
+
+.cidade {
+	color: black;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+.temp {
+	font-size: 30px;
+	color: black;
+	margin-top: 20px;
+}
+
+.caixa-menor {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.texto {
+	color: black;
+	text-transform: capitalize;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.umidade {
+	color: black;
+	margin-top: 20px;
+	font-size: 20px;
+}
